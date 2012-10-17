@@ -3,9 +3,7 @@ LifeArmor
 
 [Official Site: http://www.t2health.org](http://t2health.org)
 
-LifeArmor is a portable stress management tool. Built on the iPhone mobile app platform, LifeArmor is a hands-on diaphragmatic breathing exercise. Breathing exercises have been documented to decrease the body's 'fight-or-flight' (stress) response, and help with mood stabilization, anger control, and anxiety management. LifeArmor can be used as a stand-alone stress reduction tool, or can be used in tandem with clinical care directed by a healthcare worker.
-
-Capitalizing on touch-screen technology, a user can record their stress level on a 'visual analogue scale' by simply swiping a small bar to the left or to the right. LifeArmor uses state-of-the-art graphics, animation, narration, and videos to deliver a sophisticated, immersive experience for the user.
+Touch-screen technology allows the user to browse information on 17 topics, including sleep, depression, relationship issues, and post-traumatic stress. Brief self-assessments help the user measure and track their symptoms, and tools are available to assist with managing specific problems. Videos relevant to each topic provide personal stories from other service members, veterans, and military family members.
 
 Submitting bugs
 ===============
