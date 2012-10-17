@@ -86,7 +86,7 @@ public class ADCompanionActivity extends DroidGap {
     public void removeSplashScreen() {
         if (mSplashDialog != null) {
             mSplashDialog.dismiss();
-            mSplashDialog = null; //gc
+            mSplashDialog = null;
         } 
     }
 
@@ -105,14 +105,10 @@ public class ADCompanionActivity extends DroidGap {
 	@Override
 	public void onPause() {
 		super.onPause();
-		//sendJavascript("text_to_speech('stop');");
 	}
 	
 	@Override
 	public void onResume() {
 		super.onResume();
-		//Log.d("PhoneGapLog", "Application Resumed.");
-		//sendJavascript("onResume();");
-		//sendJavascript("logAnalytics('')");
 	}
 }
