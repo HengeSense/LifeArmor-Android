@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="darkgrey">#333333</color>
+    <style name="splashstyle">
+        <item name="android:padding">0dp</item>
+        <item name="android:windowBackground">@color/darkgrey</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+</resources>

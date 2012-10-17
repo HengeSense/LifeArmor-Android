@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<FrameLayout android:id="@+id/VidLayout" android:layout_height="fill_parent" android:layout_width="fill_parent" android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android">
+        <VideoView android:layout_height="fill_parent"
+                android:layout_width="fill_parent" android:id="@+id/VideoView"></VideoView>
+<!-- <ImageView android:layout_height="wrap_content" android:layout_width="wrap_content" android:padding="5px" android:src="@drawable/splash"/> -->
+</FrameLayout>
+
+
+<!-- <LinearLayout android:id="@+id/LinearLayout01"
+        android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android"
+        android:paddingLeft="2px" android:paddingRight="2px"
+        android:paddingTop="2px" android:paddingBottom="2px"
+        android:layout_width="fill_parent" android:orientation="vertical">
+
+        <VideoView android:layout_height="fill_parent"
+                android:layout_width="fill_parent" android:id="@+id/VideoView"></VideoView>
+
+</LinearLayout> -->

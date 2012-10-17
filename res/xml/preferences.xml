@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+
+  	<PreferenceCategory
+    	android:title="Settings"
+        android:key="settings">
+		<CheckBoxPreference
+        	android:title="Enable Analytics"
+            android:summary="Allow this program to anonymously track my usage to help developers improve this product."
+            android:key="pref_analytics_enabled"
+            android:defaultValue="true" />
+		<CheckBoxPreference
+        	android:title="Enable Accessibility"
+            android:summary="If accessibility is turned on in the Android settings menu, this program will use a custom package to assist users.  If this custom package interferes with other accessibility software, you may disable it here."
+            android:key="pref_accessibility_enabled"
+            android:defaultValue="true" />
+	</PreferenceCategory>
+        
+	<PreferenceCategory
+    	android:title="Topics to Display" 
+        android:key="topic">
+		<CheckBoxPreference android:title="Alcohol &amp; Drugs" android:key="pref_alcohol_drugs_enabled" android:defaultValue="true" />
+		<CheckBoxPreference android:title="Anger" android:key="pref_anger_enabled" android:defaultValue="true" />
+		<CheckBoxPreference android:title="Anxiety" android:key="pref_anxiety_enabled" android:defaultValue="true" />
+		<CheckBoxPreference android:title="Depression" android:key="pref_depression_enabled" android:defaultValue="true" />
+		<CheckBoxPreference android:title="Families &amp; Friendships" android:key="pref_families_friendships_enabled" android:defaultValue="true" />
+		<CheckBoxPreference android:title="Families With Kids" android:key="pref_families_with_kids_enabled" android:defaultValue="true" />
+		<CheckBoxPreference android:title="Life Stress" android:key="pref_life_stress_enabled" android:defaultValue="true" />
+		<CheckBoxPreference android:title="Mild Traumatic Brain Injury" android:key="pref_mild_traumatic_brain_injury_enabled" android:defaultValue="true" />
+		<CheckBoxPreference android:title="Military Sexual Trauma" android:key="pref_military_sexual_trauma_enabled" android:defaultValue="true" />
+		<CheckBoxPreference android:title="Physical Injury" android:key="pref_physical_injury_enabled" android:defaultValue="true" />
+		<CheckBoxPreference android:title="Post Traumatic Stress" android:key="pref_post_traumatic_stress_enabled" android:defaultValue="true" />
+		<CheckBoxPreference android:title="Resilience" android:key="pref_resilience_enabled" android:defaultValue="true" />
+		<CheckBoxPreference android:title="Sleep" android:key="pref_sleep_enabled" android:defaultValue="true" />
+		<CheckBoxPreference android:title="Spirituality" android:key="pref_spirituality_enabled" android:defaultValue="true" />
+		<CheckBoxPreference android:title="Stigma" android:key="pref_stigma_enabled" android:defaultValue="true" />
+		<CheckBoxPreference android:title="Tobacco" android:key="pref_tobacco_enabled" android:defaultValue="true" />
+		<CheckBoxPreference android:title="Work Adjustment" android:key="pref_work_adjustment_enabled" android:defaultValue="true" />
+	</PreferenceCategory>
+	
+	<PreferenceCategory
+    	android:title="Tools to Display" 
+        android:key="tools">
+		<CheckBoxPreference android:title="Assertiveness" android:key="pref_assertiveness_enabled" android:defaultValue="true" />
+		<CheckBoxPreference android:title="Distract Yourself" android:key="pref_distract_enabled" android:defaultValue="true" />
+		<CheckBoxPreference android:title="Gratitude" android:key="pref_gratitude_enabled" android:defaultValue="true" />
+		<CheckBoxPreference android:title="Grounding" android:key="pref_grounding_enabled" android:defaultValue="true" />
+		<CheckBoxPreference android:title="Health Habits" android:key="pref_health_habits_enabled" android:defaultValue="true" />
+		<CheckBoxPreference android:title="Help Falling Asleep" android:key="pref_help_falling_asleep_enabled" android:defaultValue="true" />
+		<CheckBoxPreference android:title="Inspiring Quotes" android:key="pref_inspiring_quotes_enabled" android:defaultValue="true" />
+		<CheckBoxPreference android:title="Isolation Plan" android:key="pref_iso_plan_enabled" android:defaultValue="true" />
+		<CheckBoxPreference android:title="Optimism" android:key="pref_optimism_enabled" android:defaultValue="true" />
+		<CheckBoxPreference android:title="Perspective Change" android:key="pref_perspective_change_enabled" android:defaultValue="true" />
+		<CheckBoxPreference android:title="Pleasant Events" android:key="pref_pleasant_events_enabled" android:defaultValue="true" />
+		<CheckBoxPreference android:title="Relax/Breathe" android:key="pref_relax_breathe_enabled" android:defaultValue="true" />
+		<CheckBoxPreference android:title="Relaxation" android:key="pref_relaxation_enabled" android:defaultValue="true" />
+		<CheckBoxPreference android:title="R.I.D." android:key="pref_rid_enabled" android:defaultValue="true" />
+		<CheckBoxPreference android:title="Safety Plan" android:key="pref_safety_plan_enabled" android:defaultValue="true" />
+		<CheckBoxPreference android:title="Seek Support" android:key="pref_seek_support_enabled" android:defaultValue="true" />
+		<CheckBoxPreference android:title="Time Out" android:key="pref_time_out_enabled" android:defaultValue="true" />
+	</PreferenceCategory>
+</PreferenceScreen>
